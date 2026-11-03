@@ -1,0 +1,46 @@
+{
+ "as_of": "2026-11-03",
+ "code": "bid_sim v0.2-20261103",
+ "note": "headline·by_*는 lead_days≥1(기일 전날까지 적은 예측)만. 당일 행은 by_lead에 따로",
+ "all_including_sameday": {
+  "n": 0,
+  "n_sold": 0,
+  "n_fail": 0,
+  "n_changed": 0,
+  "n_unknown": 0,
+  "sale_rate": null,
+  "change_rate": null,
+  "outcomes": {}
+ },
+ "headline": {
+  "n": 0,
+  "n_sold": 0,
+  "n_fail": 0,
+  "n_changed": 0,
+  "n_unknown": 0,
+  "sale_rate": null,
+  "change_rate": null,
+  "outcomes": {}
+ },
+ "by_group": {},
+ "by_sido": {},
+ "by_month": {},
+ "by_step": {},
+ "by_flag": {},
+ "by_level": {},
+ "by_display": {},
+ "by_lead": {},
+ "by_version": {},
+ "display_name": "비슷한 물건이 팔린 가격대(참고)",
+ "hide_rule": {
+  "flags": {
+   "RESALE": "재매각",
+   "SHARE": "지분",
+   "LANDONLY": "토지만",
+   "BLDGONLY": "건물만"
+  },
+  "width_pct_over": 60,
+  "irr": true
+ },
+ "worst": []
+}
