@@ -1,7 +1,15 @@
 {
  "as_of": "2026-11-04",
- "code": "bid_sim v0.2-20261103",
- "note": "headline·by_*는 lead_days≥1(기일 전날까지 적은 예측)만. 당일 행은 by_lead에 따로",
+ "code": "bid_sim v0.3-20261104",
+ "note": "headline·by_*는 effective=1(기일 전날까지 적은 마지막 행)만. 당일 행은 by_lead에 따로, 정정으로 대체된 행은 superseded에 따로",
+ "corrections": [
+  {
+   "date": "2026-11-04",
+   "version": "v0.3",
+   "what": "법원 공고 목록의 최저가가 유찰 1회 이상 물건에서 직전 회차 가격(한 단계 높은 값)으로 들어가 있던 것을 발견(11/3 기일 매각 327건 대조: 목록 최저가 아래 낙찰 274건, 기일내역 회차 최저가 아래 0건). 스냅샷 단계에서 기일내역 회차 최저가로 바꾸고(물건 2번 이후는 같은 사건 1번 물건 비율로 추정 'infer'), 확인 못 한 것은 깃발 LISTPRICE·화면 숨김",
+   "effect": "11/3·11/4에 고정한 v0.2 행 중 유찰≥1 물건(약 2/3)의 범위가 25~43% 높게 적힘. 기존 행은 지우지 않고 같은 (사건·물건·기일)에 정정 행(rev 1)을 덧붙임. 채점은 기일 전날까지 적힌 마지막 행으로 하고, 대체된 행은 성적표에 'superseded'로 따로 집계"
+  }
+ ],
  "all_including_sameday": {
   "n": 1771,
   "n_sold": 420,
@@ -35,6 +43,16 @@
   "change_rate": null,
   "outcomes": {}
  },
+ "superseded": {
+  "n": 0,
+  "n_sold": 0,
+  "n_fail": 0,
+  "n_changed": 0,
+  "n_unknown": 0,
+  "sale_rate": null,
+  "change_rate": null,
+  "outcomes": {}
+ },
  "by_group": {},
  "by_sido": {},
  "by_month": {},
@@ -42,6 +60,7 @@
  "by_flag": {},
  "by_level": {},
  "by_display": {},
+ "by_price_src": {},
  "by_lead": {
   "당일(사전 아님)": {
    "n": 1771,
@@ -98,7 +117,8 @@
    "RESALE": "재매각",
    "SHARE": "지분",
    "LANDONLY": "토지만",
-   "BLDGONLY": "건물만"
+   "BLDGONLY": "건물만",
+   "LISTPRICE": "최저가 미확인"
   },
   "width_pct_over": 60,
   "irr": true
