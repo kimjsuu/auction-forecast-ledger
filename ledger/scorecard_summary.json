@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-11",
+ "as_of": "2026-11-12",
  "code": "bid_sim v0.4-own-20261110",
  "note": "headline·headline_own·by_*는 effective=1(기일 전날까지 적은 마지막 행)만. headline_own은 그중 새 판(own) 행만. 당일 행은 by_lead에 따로, 정정으로 대체된 행은 superseded에 따로",
  "corrections": [
