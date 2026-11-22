@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-22",
+ "as_of": "2026-11-23",
  "code": "bid_sim v0.4-own-20261110",
  "note": "headline·headline_own·by_*는 effective=1(기일 전날까지 적은 마지막 행)만. headline_own은 그중 새 판(own) 행만. 당일 행은 by_lead에 따로, 정정으로 대체된 행은 superseded에 따로",
  "corrections": [
@@ -17,16 +17,16 @@
   }
  ],
  "all_including_sameday": {
-  "n": 22369,
+  "n": 22378,
   "n_sold": 4591,
-  "n_fail": 16251,
+  "n_fail": 16260,
   "n_changed": 1516,
   "n_unknown": 0,
   "sale_rate": 22.0,
   "change_rate": 6.8,
   "outcomes": {
    "매각": 4602,
-   "유찰": 16251,
+   "유찰": 16260,
    "변경": 1516
   },
   "err_med": 9.1,
@@ -40,16 +40,16 @@
   "width80_pct": 31.2
  },
  "headline": {
-  "n": 20514,
+  "n": 20523,
   "n_sold": 4170,
-  "n_fail": 14842,
+  "n_fail": 14851,
   "n_changed": 1493,
   "n_unknown": 0,
   "sale_rate": 21.9,
   "change_rate": 7.3,
   "outcomes": {
    "매각": 4179,
-   "유찰": 14842,
+   "유찰": 14851,
    "변경": 1493
   },
   "err_med": 8.4,
@@ -63,9 +63,9 @@
   "width80_pct": 31.4
  },
  "superseded": {
-  "n": 23274,
+  "n": 23283,
   "n_sold": 5683,
-  "n_fail": 16025,
+  "n_fail": 16034,
   "n_changed": 1552,
   "n_unknown": 0,
   "sale_rate": 26.2,
@@ -73,7 +73,7 @@
   "outcomes": {
    "변경": 1552,
    "매각": 5697,
-   "유찰": 16025
+   "유찰": 16034
   },
   "err_med": 17.6,
   "err_mean": 22.1,
@@ -86,16 +86,16 @@
   "width80_pct": 28.9
  },
  "headline_own": {
-  "n": 12283,
+  "n": 12292,
   "n_sold": 2507,
-  "n_fail": 9019,
+  "n_fail": 9028,
   "n_changed": 751,
   "n_unknown": 0,
-  "sale_rate": 21.8,
+  "sale_rate": 21.7,
   "change_rate": 6.1,
   "outcomes": {
    "매각": 2513,
-   "유찰": 9019,
+   "유찰": 9028,
    "변경": 751
   },
   "err_med": 7.8,
@@ -133,15 +133,15 @@
    "width80_pct": 31.2
   },
   "단독·다가구": {
-   "n": 1145,
+   "n": 1146,
    "n_sold": 209,
-   "n_fail": 867,
+   "n_fail": 868,
    "n_changed": 69,
    "n_unknown": 0,
    "sale_rate": 19.4,
    "change_rate": 6.0,
    "outcomes": {
-    "유찰": 867,
+    "유찰": 868,
     "변경": 69,
     "매각": 209
    },
@@ -225,15 +225,15 @@
    "width80_pct": 25.5
   },
   "토지": {
-   "n": 5231,
+   "n": 5239,
    "n_sold": 724,
-   "n_fail": 4079,
+   "n_fail": 4087,
    "n_changed": 420,
    "n_unknown": 0,
-   "sale_rate": 15.1,
+   "sale_rate": 15.0,
    "change_rate": 8.0,
    "outcomes": {
-    "유찰": 4079,
+    "유찰": 4087,
     "매각": 732,
     "변경": 420
    },
@@ -319,16 +319,16 @@
    "width80_pct": 34.0
   },
   "경상북도": {
-   "n": 1334,
+   "n": 1343,
    "n_sold": 238,
-   "n_fail": 994,
+   "n_fail": 1003,
    "n_changed": 100,
    "n_unknown": 0,
-   "sale_rate": 19.3,
-   "change_rate": 7.5,
+   "sale_rate": 19.2,
+   "change_rate": 7.4,
    "outcomes": {
     "매각": 240,
-    "유찰": 994,
+    "유찰": 1003,
     "변경": 100
    },
    "err_med": 9.4,
@@ -643,16 +643,16 @@
  },
  "by_month": {
   "202611": {
-   "n": 20514,
+   "n": 20523,
    "n_sold": 4170,
-   "n_fail": 14842,
+   "n_fail": 14851,
    "n_changed": 1493,
    "n_unknown": 0,
    "sale_rate": 21.9,
    "change_rate": 7.3,
    "outcomes": {
     "매각": 4179,
-    "유찰": 14842,
+    "유찰": 14851,
     "변경": 1493
    },
    "err_med": 8.4,
@@ -668,15 +668,15 @@
  },
  "by_step": {
   "0:0": {
-   "n": 6764,
+   "n": 6773,
    "n_sold": 198,
-   "n_fail": 6174,
+   "n_fail": 6183,
    "n_changed": 392,
    "n_unknown": 0,
    "sale_rate": 3.1,
    "change_rate": 5.8,
    "outcomes": {
-    "유찰": 6174,
+    "유찰": 6183,
     "변경": 392,
     "매각": 198
    },
@@ -1083,15 +1083,15 @@
  },
  "by_flag": {
   "깃발 없음": {
-   "n": 10696,
+   "n": 10697,
    "n_sold": 2068,
-   "n_fail": 7725,
+   "n_fail": 7726,
    "n_changed": 903,
    "n_unknown": 0,
    "sale_rate": 21.1,
    "change_rate": 8.4,
    "outcomes": {
-    "유찰": 7725,
+    "유찰": 7726,
     "매각": 2068,
     "변경": 903
    },
@@ -1106,16 +1106,16 @@
    "width80_pct": 31.8
   },
   "깃발 있음": {
-   "n": 9818,
+   "n": 9826,
    "n_sold": 2102,
-   "n_fail": 7117,
+   "n_fail": 7125,
    "n_changed": 590,
    "n_unknown": 0,
    "sale_rate": 22.8,
    "change_rate": 6.0,
    "outcomes": {
     "매각": 2111,
-    "유찰": 7117,
+    "유찰": 7125,
     "변경": 590
    },
    "err_med": 8.0,
@@ -1131,15 +1131,15 @@
  },
  "by_level": {
   "l1": {
-   "n": 4664,
+   "n": 4665,
    "n_sold": 414,
-   "n_fail": 4048,
+   "n_fail": 4049,
    "n_changed": 202,
    "n_unknown": 0,
    "sale_rate": 9.3,
    "change_rate": 4.3,
    "outcomes": {
-    "유찰": 4048,
+    "유찰": 4049,
     "매각": 414,
     "변경": 202
    },
@@ -1154,15 +1154,15 @@
    "width80_pct": 35.9
   },
   "l2": {
-   "n": 7329,
+   "n": 7337,
    "n_sold": 1322,
-   "n_fail": 5439,
+   "n_fail": 5447,
    "n_changed": 564,
    "n_unknown": 0,
-   "sale_rate": 19.6,
+   "sale_rate": 19.5,
    "change_rate": 7.7,
    "outcomes": {
-    "유찰": 5439,
+    "유찰": 5447,
     "변경": 564,
     "매각": 1326
    },
@@ -1225,15 +1225,15 @@
    "width80_pct": 36.2
   },
   "show": {
-   "n": 17539,
+   "n": 17548,
    "n_sold": 3635,
-   "n_fail": 12619,
+   "n_fail": 12628,
    "n_changed": 1278,
    "n_unknown": 0,
    "sale_rate": 22.4,
    "change_rate": 7.3,
    "outcomes": {
-    "유찰": 12619,
+    "유찰": 12628,
     "매각": 3642,
     "변경": 1278
    },
@@ -1250,16 +1250,16 @@
  },
  "by_price_src": {
   "infer": {
-   "n": 2254,
+   "n": 2258,
    "n_sold": 318,
-   "n_fail": 1585,
+   "n_fail": 1589,
    "n_changed": 349,
    "n_unknown": 0,
    "sale_rate": 16.7,
    "change_rate": 15.5,
    "outcomes": {
     "매각": 320,
-    "유찰": 1585,
+    "유찰": 1589,
     "변경": 349
    },
    "err_med": 10.0,
@@ -1296,9 +1296,9 @@
    "width80_pct": 30.6
   },
   "round": {
-   "n": 14273,
+   "n": 14278,
    "n_sold": 3471,
-   "n_fail": 9993,
+   "n_fail": 9998,
    "n_changed": 802,
    "n_unknown": 0,
    "sale_rate": 25.8,
@@ -1306,7 +1306,7 @@
    "outcomes": {
     "변경": 802,
     "매각": 3478,
-    "유찰": 9993
+    "유찰": 9998
    },
    "err_med": 7.7,
    "err_mean": 9.3,
@@ -1344,9 +1344,9 @@
    "width80_pct": 31.4
   },
   "D-8~30": {
-   "n": 4270,
+   "n": 4279,
    "n_sold": 805,
-   "n_fail": 2955,
+   "n_fail": 2964,
    "n_changed": 510,
    "n_unknown": 0,
    "sale_rate": 21.4,
@@ -1354,7 +1354,7 @@
    "outcomes": {
     "변경": 510,
     "매각": 805,
-    "유찰": 2955
+    "유찰": 2964
    },
    "err_med": 8.5,
    "err_mean": 10.6,
@@ -1484,16 +1484,16 @@
    "width80_pct": 33.2
   },
   "bid_sim v0.3-20261104+tab20261106.339c7b12": {
-   "n": 638,
+   "n": 647,
    "n_sold": 148,
-   "n_fail": 459,
+   "n_fail": 468,
    "n_changed": 31,
    "n_unknown": 0,
-   "sale_rate": 24.4,
-   "change_rate": 4.9,
+   "sale_rate": 24.0,
+   "change_rate": 4.8,
    "outcomes": {
     "매각": 148,
-    "유찰": 459,
+    "유찰": 468,
     "변경": 31
    },
    "err_med": 7.1,
@@ -1598,16 +1598,16 @@
    "width80_pct": 40.8
   },
   "bid_sim v0.4-own-20261110+tab20261110.2d59420d": {
-   "n": 12281,
+   "n": 12290,
    "n_sold": 2507,
-   "n_fail": 9017,
+   "n_fail": 9026,
    "n_changed": 751,
    "n_unknown": 0,
-   "sale_rate": 21.8,
+   "sale_rate": 21.7,
    "change_rate": 6.1,
    "outcomes": {
     "매각": 2513,
-    "유찰": 9017,
+    "유찰": 9026,
     "변경": 751
    },
    "err_med": 7.8,
